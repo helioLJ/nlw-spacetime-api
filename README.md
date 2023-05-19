@@ -4,7 +4,7 @@
 # NLW Space Time API 🛰️
 
 
-API do projeto Space Time, criado durante o evento da Rocketseat NLW...
+Back-end usando NodeJS, Fastify, Prisma, TypeScript e mais tecnologias. Criado durante o evento da Rocketseat NLW.
 
 
 ## Índice
