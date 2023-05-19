@@ -14,8 +14,6 @@ API do projeto Space Time, criado durante o evento da Rocketseat NLW...
 - [Funcionalidades 🎯](#funcionalidades)
 - [Variáveis de Ambiente 🔑](#variáveis-de-ambiente)
 - [Rodando localmente 🏠](#rodando-localmente)
-- [Rodando os testes 🧪](#rodando-os-testes)
-- [Apêndice 🔍](#apêndice)
 - [Documentação da API 📖](#documentação-da-api)
 - [Licença 📜](#licença)
 
@@ -24,20 +22,27 @@ API do projeto Space Time, criado durante o evento da Rocketseat NLW...
 
 ### Dependencies
 
-- Node.js
-- Prisma
-- Fastify
+![node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+![fastify](https://img.shields.io/badge/fastify-202020?style=for-the-badge&logo=fastify&logoColor=white)
+![jwt](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+![sqlite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 
-### DevDependencies
+### Outras Libs
 
-- TypeScript
-- ESLint
+- DotEnv
+- CORS
+- Zod
+- Axios
 
 
 ## Funcionalidades
 
 
-- 
+- Cadastrando usando OAuth do GitHub
+- CRUD de Memórias
 
 
 ## Variáveis de Ambiente
@@ -46,7 +51,20 @@ API do projeto Space Time, criado durante o evento da Rocketseat NLW...
 Para rodar esse projeto, você vai precisar adicionar variáveis de ambiente, como mostra o arquivo `env.example`
 
 ```env
+  # Database
+  DATABASE_URL="file:./dev.db"
+
+  # Github (Web)
+  GITHUB_CLIENT_ID=
+  GITHUB_CLIENT_SECRET=
+
+  # Github (Mobile)
+  # GITHUB_CLIENT_ID=
+  # GITHUB_CLIENT_SECRET=
+
+  # JWT Secret
   AUTH_SECRET=
+
 ```
 
 
@@ -78,26 +96,7 @@ Inicie o servidor
 ```
 
 
-## Rodando os testes
-
-
-Para rodar os testes, rode o seguinte comando
-
-```bash
-  npm test
-```
-
-
-## Apêndice
-
-
-| Diagrama Entidade Relacionamento      | Estrutura de Pastas do Projeto     |
-| ------------- | ------------- |
-| <img alt="Diagrama Entidade Relacionamento" src="https://i.imgur.com/oeiETNw.png"> | <img alt="Estrutura de Pastas do Projeto" src="https://i.imgur.com/Y2buOH0.png"> |
-
-
 ## Documentação da API
-
 
 Para os métodos da API..
 
@@ -106,15 +105,11 @@ Para os métodos da API..
 #### Cria um Usuário
 
 ```http
-  POST /users
+  
 ```
 
 ```JSON
-{
-	"name": "John",
-	"email": "john@email.com",
-	"password": "123"
-}
+
 ```
 
 
