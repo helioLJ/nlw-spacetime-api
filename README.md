@@ -14,7 +14,6 @@ Back-end usando NodeJS, Fastify, Prisma, TypeScript e mais tecnologias. Criado d
 - [Funcionalidades 🎯](#funcionalidades)
 - [Variáveis de Ambiente 🔑](#variáveis-de-ambiente)
 - [Rodando localmente 🏠](#rodando-localmente)
-- [Documentação da API 📖](#documentação-da-api)
 - [Licença 📜](#licença)
 
 
@@ -92,24 +91,6 @@ Inicie o servidor
 ```bash
   npm run dev
 ```
-
-
-## Documentação da API
-
-Para os métodos da API..
-
-### Usuários
-
-#### Cria um Usuário
-
-```http
-  
-```
-
-```JSON
-
-```
-
 
 ## Licença
 
