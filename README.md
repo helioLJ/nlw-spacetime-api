@@ -20,8 +20,6 @@ API do projeto Space Time, criado durante o evento da Rocketseat NLW...
 
 ## Stack utilizada
 
-### Dependencies
-
 ![node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
